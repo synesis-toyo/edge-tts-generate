@@ -11,12 +11,12 @@
 
 ## Overview  
 このスクリプトは、MicrosoftのText-to-Speech（音声合成）APIであるedge_ttsを使用して、指定されたテキストファイルをMP3形式の音声ファイルに変換するPythonスクリプトです。  
+.txtファイルを読み込み、指定された音声モデルを使用して音声合成を行い、MP3ファイルとして保存します。  
+複数のテキストファイルを一度に処理できます。  
+<br>
 edge_ttsは、以下のページを参考にしてください。  
 https://github.com/rany2/edge-tts  
-https://pypi.org/project/edge-tts/  
-
-特長は、.txtファイルを読み込み、指定された音声モデルを使用して音声合成を行い、MP3ファイルとして保存します。  
-複数のテキストファイルを一度に処理できます。  
+https://pypi.org/project/edge-tts/ 
 
 ##  Installation  
 動作環境は以下のとおりです。  
@@ -49,8 +49,11 @@ https://github.com/rany2/edge-tts
 
 ## License  
 © TOYO Corporation  
-Licensed under the [MIT License](https://github.com/synesis-toyo/FeedService?tab=MIT-1-ov-file).
+Licensed under the [GPL-3.0](https://github.com/synesis-toyo/generate?tab=GPL-3.0-1-ov-file)
 
 ## Contact
 https://www.synesis.tech/  
-[synesis-globalsales@toyo.co.jp](<mailto:synesis-globalsales@toyo.co.jp>)
+[synesis-globalsales@toyo.co.jp](<mailto:synesis-globalsales@toyo.co.jp>)  
+<br>
+以下のページこのスクリプトのサンプル音声が掲載されています。（日本語）  
+https://www.toyo.co.jp/onetech_blog/articles/detail/id=38865
