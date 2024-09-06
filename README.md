@@ -1,4 +1,4 @@
-# edge_tts_generate.py
+# edge-tts-generate.py
 
 ## Table of Contents
 
