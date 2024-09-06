@@ -44,6 +44,21 @@ pip install edge_tts
 ```
 このコマンドは、ディレクトリ内のすべての `.txt` ファイルを対応する `.mp3` ファイルに変換します。
 
+### 使用する音声の変更  
+デフォルトの音声は、`en-US-AriaNeural` が使用されています。異なる音声を使用する場合は、`VOICE` 変数を変更します。
+
+```python
+...
+VOICE = "supported voice"
+...
+```
+<br>
+なお音声は、以下のコマンドで確認できます。英語だけでなく、多様な言語がサポートされています。  
+
+```bash
+edge-tts -l
+```
+
 ## Thanks
 https://github.com/rany2/edge-tts
 
@@ -55,5 +70,5 @@ Licensed under the [GPL-3.0](https://github.com/synesis-toyo/generate?tab=GPL-3.
 https://www.synesis.tech/  
 [synesis-globalsales@toyo.co.jp](<mailto:synesis-globalsales@toyo.co.jp>)  
 <br>
-以下のページこのスクリプトのサンプル音声が掲載されています。（日本語）  
+以下のブログ記事にこのスクリプトのサンプル音声が掲載されています。（日本語）  
 https://www.toyo.co.jp/onetech_blog/articles/detail/id=38865
