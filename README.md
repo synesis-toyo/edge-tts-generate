@@ -1,15 +1,20 @@
 # edge-tts-generate.py
 
-## Table of Contents
+<!-- TOC -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#description">Description</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#thanks">Thanks</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-1. [Overview](#overview)
-2. [Installation](#installation)
-3. [Specification](#specification)
-4. [Thanks](#thanks)
-5. [License](#license)
-6. [Contact](#contact)
 
-## Overview  
+## Description  
 このスクリプトは、MicrosoftのText-to-Speech（音声合成）APIであるedge_ttsを使用して、指定されたテキストファイルをMP3形式の音声ファイルに変換するPythonスクリプトです。  
 .txtファイルを読み込み、指定された音声モデルを使用して音声合成を行い、MP3ファイルとして保存します。  
 複数のテキストファイルを一度に処理できます。  
@@ -20,7 +25,7 @@ https://pypi.org/project/edge-tts/
 
 ##  Installation  
 動作環境は以下のとおりです。  
-- Python 3.7以上
+- Python>=3.7
 - `edge_tts` パッケージ
   
 このスクリプトを動作させるためには、以下のパッケージをインストールする必要があります。
@@ -28,7 +33,7 @@ https://pypi.org/project/edge-tts/
 pip install edge_tts
 ```
 
-## Specification
+## Usage  
 
 ### 単一のテキストファイルを変換する
 以下のコマンドを実行すると、`example.txt` が音声に変換され、`example.mp3` というファイルが生成されます。
