@@ -76,4 +76,4 @@ https://www.synesis.tech/
 [synesis-globalsales@toyo.co.jp](<mailto:synesis-globalsales@toyo.co.jp>)  
 <br>
 以下のブログ記事にこのスクリプトのサンプル音声が掲載されています。（日本語）  
-https://www.toyo.co.jp/onetech_blog/articles/detail/id=38865
+https://www.toyo.co.jp/ict/casestudy/detail/id=42440
