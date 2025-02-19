@@ -72,7 +72,7 @@ https://github.com/rany2/edge-tts
 Licensed under the [GPL-3.0](https://github.com/synesis-toyo/generate?tab=GPL-3.0-1-ov-file)
 
 ## Contact
-https://www.synesis.tech/  
+https://www.toyo.co.jp/ict/products/detail/synesis.html  
 [synesis-globalsales@toyo.co.jp](<mailto:synesis-globalsales@toyo.co.jp>)  
 <br>
 以下のブログ記事にこのスクリプトのサンプル音声が掲載されています。（日本語）  
